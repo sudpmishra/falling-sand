@@ -1,0 +1,31 @@
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    color: #8a8a8a;
+}
+body h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    top: 25px;
+    position: absolute;
+}
+body #moon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+body canvas{
+    padding: 0;
+    margin: 0;
+}
